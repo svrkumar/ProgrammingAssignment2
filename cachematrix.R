@@ -1,5 +1,5 @@
-## Creation of a matrix object and calculating it's inverse.
-## If the matrix inverse is already calculated, then it will search in the cache## instead of calculating it again.
+## Create a matrix object and calculating it's inverse.
+## If the matrix inverse is already calculated, then it will search in the cache instead of calculating it again.
 
 ## makeCacheMatrix  creates a special matrix object that can cache its inverse
 
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve checks cache for inverse, if not found in cache it will calcualte
+## cacheSolve checks cache for inverse, if not found in cache it will calcualte inverse
 
 cacheSolve <- function(x, ...) {
 	i <- x$getinverse()
